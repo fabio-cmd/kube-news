@@ -1,0 +1,5 @@
+services:
+  kube_news:
+    image: fabiodinizdev/web-kube-news:${KUBE_NEWS_TAG:-latest}
+    ports:
+      - 8181:8181
